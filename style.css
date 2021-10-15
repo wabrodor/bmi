@@ -157,6 +157,9 @@ input{
 input::placeholder{
     color:#fff;
 }
+input:focus-within{
+    background:rgba(255, 255, 255, 0.342);
+}
 
 .btn, .replay{
     display:block;
