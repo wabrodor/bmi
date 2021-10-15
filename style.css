@@ -97,7 +97,7 @@ body{
     align-items: center;
     flex-direction: column;
     color:rgba(255, 255, 255, 0.76);
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
 button{
@@ -124,7 +124,7 @@ h4{
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
     margin-bottom:0.5rem;
 }
@@ -146,7 +146,7 @@ p{
 label{
     display:inline-block;
     margin:1rem;
-    font-size:25px;
+    font-size:22px;
 }
 
 input{
@@ -213,12 +213,12 @@ transition: 1s all ease-in;
 }
 .order > h2{
     text-align:center;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 
 .result-bmi {
-    font-size: 30px;
+    font-size: 25px;
 }
 .action{
     text-align:center;
