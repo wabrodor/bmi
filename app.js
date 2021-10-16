@@ -51,7 +51,7 @@ setTimeout(()=>{
    
 
            percent.style.width = result + "%"
-           percent.style.transition = "1s all ease-in"
+           percent.style.transition = "1.2s all ease-in"
 
            sec.classList.toggle("popup")
 

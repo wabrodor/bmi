@@ -97,7 +97,7 @@ body{
     align-items: center;
     flex-direction: column;
     color:rgba(255, 255, 255, 0.76);
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
 button{
@@ -124,7 +124,7 @@ h4{
 
 h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom:0.5rem;
 }
@@ -146,7 +146,7 @@ p{
 label{
     display:inline-block;
     margin:1rem;
-    font-size:22px;
+    font-size:20px;
 }
 
 input{
@@ -213,12 +213,12 @@ transition: 1s all ease-in;
 }
 .order > h2{
     text-align:center;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
 .result-bmi {
-    font-size: 25px;
+    font-size: 22px;
 }
 .action{
     text-align:center;
@@ -285,6 +285,9 @@ left:-900%;
 }
 
 @media (min-width:1024px){
+    body{
+        font-size: 20px;
+    }
     .sec-1{
         width:70%;
     }
@@ -294,5 +297,15 @@ left:-900%;
     .result-color{
         font-size:40px;
         text-transform: uppercase;
+    }
+    h1{
+        font-size:40px;
+    }
+    .result-bmi {
+        font-size: 26px;
+    }
+    .order > h2{
+        text-align:center;
+        font-size: 35px;
     }
 }
